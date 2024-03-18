@@ -1,6 +1,6 @@
 ### easyipx-v3
 
-##### utools插件内网穿透服务端程序 请使用**v3**目录下的版本。
+##### utools插件内网穿透服务端程序 请使用**v3.1.18**目录下的版本。
 
 v1服务端无法用于3.0的插件。
 
@@ -14,28 +14,28 @@ linux环境 使用 `uname -m` 查看架构名
 
 #### Windows (64-bit, amd64)
 
-easyipx-windows-amd64-240118.exe
+easyipx-windows-amd64-3.1.18.exe
 
 #### Windows (32-bit, x86)
 
-easyipx-windows-386-240118.exe
+easyipx-windows-386-3.1.18.exe
 
 #### Linux (64-bit, amd64)
 
-easyipx-linux-amd64-240118
+easyipx-linux-amd64-3.1.18
 
 #### Linux (32-bit, x86)
 
-easyipx-linux-386-240118
+easyipx-linux-386-3.1.18
 
 #### Linux (ARM 64-bit, arm64, for newer ARM devices like Raspberry Pi 3/4)
 
-easyipx-linux-arm64-240118
+easyipx-linux-arm64-3.1.18
 
 #### FreeBSD (64-bit, amd64)
 
-easyipx-freebsd-amd64-240118
+easyipx-freebsd-amd64-3.1.18
 
 #### Mac (64-bit, amd64)
 
-easyipx-darwin-amd64-240118
+easyipx-darwin-amd64-3.1.18

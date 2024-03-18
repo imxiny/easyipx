@@ -1,0 +1,27 @@
+{
+  "addr": "0.0.0.0",
+  "port": 9999,
+  "token": "fe7ca1b5e5ac01ed16b0135316e34b9a",
+  "heartbeat": 30,
+  "http": {
+    "http_port": 6081,
+    "https_port": 6443,
+    "pem_file": "",
+    "key_file": "",
+    "request_timeout": 30,
+    "heartbeat": 30
+  },
+  "file": {
+    "maxsize": 10000
+  },
+  "tcp": {
+    "buffer_cache": 32768,
+    "port_range": "1024-49151"
+  },
+  "udp": {
+    "keep_time": 7200,
+    "health_check": 60,
+    "buffer_cache": 32768,
+    "port_range": "1024-49151"
+  }
+}
