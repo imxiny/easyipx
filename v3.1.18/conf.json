@@ -1,10 +1,10 @@
 {
   "addr": "0.0.0.0",
-  "port": 9999,
-  "token": "fe7ca1b5e5ac01ed16b0135316e34b9a",
+  "port": 8088,
+  "token": "这里换成自己的token,建议md5串",
   "heartbeat": 30,
   "http": {
-    "http_port": 6081,
+    "http_port": 6080,
     "https_port": 6443,
     "pem_file": "",
     "key_file": "",
