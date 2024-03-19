@@ -5,7 +5,7 @@
 #### 该仓库是 utools插件 内网穿透 配套服务端程序
 
 [utools官网](https://u.tools)
-
+<a href="https://u.tools" target="_blank">utools官网</a>
 [部署说明书](https://www.yuque.com/xinu/notes/awqksyrwerusf65l?singleDoc)
 
 请使用**v3.1.18**目录下的版本。
