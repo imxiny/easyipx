@@ -6,7 +6,7 @@
 
 [utools官网](https://u.tools)
 
-[部署说明书](https://www.yuque.com/xinu/notes/awqksyrwerusf65l?singleDoc)
+[服务端部署说明书](https://www.yuque.com/xinu/notes/awqksyrwerusf65l?singleDoc)
 
 请使用**v3.1.18**目录下的版本。
 
