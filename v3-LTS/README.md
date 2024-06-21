@@ -27,13 +27,13 @@ linux环境 使用 `uname -m` 查看架构名
 
 ##### Windows (64-bit, amd64)
 
-[easyipx-windows-amd64-3.2.0-LTS.exe](https://github.com/imxiny/easyipx/blob/main/v3-LTS/easyipx-windows-amd64-3.2.0.exe)
+[easyipx-windows-amd64-3.2.0-LTS.exe](https://raw.githubusercontent.com/imxiny/easyipx/main/v3-LTS/easyipx-windows-amd64-3.2.0.exe)
 
 <br/>
 
 ##### Windows (32-bit, x86)
 
-[easyipx-windows-386-3.2.0-LTS.exe](https://github.com/imxiny/easyipx/blob/main/v3-LTS/easyipx-windows-386-3.2.0.exe)
+[easyipx-windows-386-3.2.0-LTS.exe](https://raw.githubusercontent.com/imxiny/easyipx/main/v3-LTS/easyipx-windows-386-3.2.0.exe)
 
 <br/>
 
