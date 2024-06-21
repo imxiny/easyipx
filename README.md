@@ -10,72 +10,31 @@
 
 [服务端部署说明书](https://www.yuque.com/xinu/notes/awqksyrwerusf65l?singleDoc)
 
-服务端分为 **v3** 版本及 **v4** 两个版本，**v4**是完全重构的版本，不是**v3**简单升级而来。
-精力有限，**v3** 只修BUG, **v4** 会持续维护
-
-
-最近更新时间 2024-06-21
-
-
-### 下面是v4最新版本程序
 <br/>
 
-#### 根据系统及架构选择对应的软件包
+### 服务端说明
 
-<br/>
+目前有两个版本，v3 、v4 详细对比看下表
 
+|功能|V3服务端|V4服务端|
+|--|--|--|
+|HTTP代理|✅|✅|
+|文件共享|✅|✅|
+|TCP代理|✅|✅|
+|UDP代理|✅|✅|
+|隧道数量|不限|非插件会员2条|
+|速度|快|更快(智能压缩传输)|
+|安全传输||tls加密(自签证书)|
+|稳定性|单向心跳|双向心跳|
+|下载地址|[v3下载](https://github.com/imxiny/easyipx/tree/main/v3-LTS)|[v4下载](https://github.com/imxiny/easyipx/tree/main/v4)|
 
-软件包命名规则：`easyipx-<系统>-<架构>-<版本号>`
+#### 服务端版本差异说明
 
-linux环境 使用 `uname -s` 查看系统名
+1. V4与V3在基础功能上没有本质上的差异，V4只是更快、更安全、更稳定；
+2. V3进入LTS版本维护，V4持续维护，V4是完全重构的，精力有限，无法同时维护两个版本；
 
-linux环境 使用 `uname -m` 查看架构名
+#### 我该选择哪个版本？
 
-<br/>
-
-##### 配置文件下载
-
-[conf.json](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/conf.json)
-
-<br/>
-
-##### Windows (64-bit, amd64)
-
-[easyipx-windows-amd64-4.0.2.exe](https://github.com/imxiny/easyipx/blob/main/v4/easyipx-windows-amd64-4.0.2.exe)
-
-<br/>
-
-##### Windows (32-bit, x86)
-
-[easyipx-windows-386-4.0.2.exe](https://github.com/imxiny/easyipx/blob/main/v4/easyipx-windows-386-4.0.2.exe)
-
-<br/>
-
-##### Linux (64-bit, amd64)
-
-[easyipx-linux-amd64-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-linux-amd64-4.0.2)
-
-<br/>
-
-##### Linux (32-bit, x86)
-
-[easyipx-linux-386-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-linux-386-4.0.2)
-
-<br/>
-
-##### Linux (ARM 64-bit, arm64, for newer ARM devices like Raspberry Pi 3/4)
-
-[easyipx-linux-arm64-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-linux-arm64-4.0.2)
-
-<br/>
-
-##### FreeBSD (64-bit, amd64)
-
-[easyipx-freebsd-amd64-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-linux-freebsd-4.0.2)
-
-<br/>
-
-##### Mac (64-bit, amd64)
-
-[easyipx-darwin-amd64-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-darwin-amd64-4.0.2)
-
+1. 不常用，偶尔用一次 ，推荐使用V4，可享受v4版本的速度及安全，免费2条隧道足够使用，也可随意更改  👉👉👉 [v4下载](https://github.com/imxiny/easyipx/tree/main/v4)
+2. 经常用，隧道很多，但是不想开会员，会员功能用不上，推荐下载V3版本，无任何限制，足以满足日常需求。👉👉👉 [v3下载](https://github.com/imxiny/easyipx/tree/main/v3-LTS)
+3. 想要更好的体验，及更多的功能如请求日志、自动重连等，使用V4版本，并开通会员。感谢您的支持。    👉👉👉 [v4下载](https://github.com/imxiny/easyipx/tree/main/v4)
