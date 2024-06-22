@@ -8,7 +8,7 @@
 
 [猿料论坛](https://yuanliao.info/d/20037)
 
-[服务端部署说明书](https://www.yuque.com/xinu/notes/awqksyrwerusf65l?singleDoc)
+[服务端部署说明书](https://www.yuque.com/xinu/notes/mzagfszkmy1gecaf?singleDoc)
 
 <br/>
 
