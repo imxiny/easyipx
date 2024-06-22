@@ -59,11 +59,4 @@ linux环境 使用 `uname -m` 查看架构名
 
 [easyipx-freebsd-amd64-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-linux-freebsd-4.0.2)
 
-<br/>
-
-##### Mac (64-bit, amd64)
-
-[easyipx-darwin-amd64-4.0.2](https://raw.githubusercontent.com/imxiny/easyipx/main/v4/easyipx-darwin-amd64-4.0.2)
-
-
 
