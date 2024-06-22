@@ -1,0 +1,27 @@
+{
+  "addr": "0.0.0.0",
+  "port": 8088,
+  "token": "这里换成自己的token, 很重要，不要泄露出去",
+  "tunnel": {
+    "tls": false,
+    "pem_file": "",
+    "key_file": ""
+  },
+  "http": {
+    "http_port": 6080,
+    "https_port": 6443,
+    "pem_file": "",
+    "key_file": "",
+    "heartbeat": 30
+  },
+  "tcp": {
+    "buffer_cache": 32768,
+    "port_range": "1024-49151"
+  },
+  "udp": {
+    "keep_time": 7200,
+    "health_check": 60,
+    "buffer_cache": 32768,
+    "port_range": "1024-49151"
+  }
+}
